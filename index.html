@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>DFS, BFS</title>
+</head>
+<body>
+    <div class="header">
+        <div class="inps">
+            <div class="individualinps">
+                <label for="nofrows">Number of Rows:</label>
+                <input type="number" name="nofrows" id="nofrows">
+            </div>
+            <div class="individualinps">
+                <label for="nofcols">Number of Columns:</label>
+                <input type="number" name="" id="nofcols">
+            </div>
+            <button id="updrowcol">Update</button>
+        </div>
+        <div class="gridSelectBtn">
+            <button id="start">Select Start</button>
+            <button id="end">Select End</button>
+            <div class="addremblocks">
+                <button id="selectblocks">Select Blokcs</button>
+                <button id="deselectblocks">Deselect Blokcs</button>
+            </div>
+        </div>
+        <div class="animationBtn">
+            <button id="startbfs">Start BFS</button>
+            <button id="startdfs">Start DFS</button>
+            <div class="reset">
+                <button id="resetall">Reset All</button>
+                <button id="resettraversal">Reset Traversal</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main" id="main">
+        
+
+    </div>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

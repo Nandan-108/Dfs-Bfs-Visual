@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+}
+.header {
+    height: fit-content;
+    background-color: rgb(146, 198, 243);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding: 8px 30px 8px 30px;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    /* height: fit-content; */
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    user-select: none;
+}
+.row {
+    display: flex;
+    flex-flow: row;
+    /* height: min-content; */
+    /* justify-content: space-around; */
+    margin-top: 1px;
+}
+.col {
+    width: 50px;
+    background-color: rgb(47, 22, 22);
+    margin-left: 1px;
+    
+
+    /*blah blah*/
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* .onegridbox {
+    width: 50px;
+    background-color: rgb(47, 22, 22);
+    aspect-ratio: 1;
+    margin-bottom: 3px;
+} */
+
+.inps{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    width: 30%;
+    align-content: center;
+}
+input, button{
+    width: min-content;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+input {
+    width: 85px;
+    height: fit-content;
+}
+
+.individualinps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.individualinps label{
+    padding: 12px;
+}
+
+button {
+    width: max-content;
+    padding: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #00cbcb;
+}
+
+.gridSelectBtn, .animationBtn {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+
+.gridSelectBtn button, .animationBtn button {
+    background-color: #d7f5e4;
+    width:  80%;
+    margin: 2px;
+}
+
+.reset, .addremblocks {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.reset button {
+    width: 100%;
+}
+
+
